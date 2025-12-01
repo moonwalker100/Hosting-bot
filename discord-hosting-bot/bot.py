@@ -7,13 +7,13 @@ import os
 
 load_dotenv()
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-OWNER_ID = int(os.getenv("BOT_OWNER_ID", "0"))
+TOKEN = os.getenv("")
+OWNER_ID = int(os.getenv("BOT_OWNER_ID", ""))
 
 # rest of your code...
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-OWNER_ID = int(os.getenv("BOT_OWNER_ID", "0"))
+TOKEN = os.getenv("8576488730:AAGwqegAa4GGcYPL_FZT78Uf1x_iGjnyD7k")
+OWNER_ID = int(os.getenv("BOT_OWNER_ID", "1718481517"))
 
 DATA_FILE = "data.json"
 
