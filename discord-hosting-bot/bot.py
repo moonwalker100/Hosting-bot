@@ -2,6 +2,15 @@ import discord
 from discord.ext import commands
 import json
 import os
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+TOKEN = os.getenv("DISCORD_TOKEN")
+OWNER_ID = int(os.getenv("BOT_OWNER_ID", "0"))
+
+# rest of your code...
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 OWNER_ID = int(os.getenv("BOT_OWNER_ID", "0"))
